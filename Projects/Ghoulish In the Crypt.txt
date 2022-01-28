@@ -1,18 +1,17 @@
 <h2>About the Project:</h2>
 <p></p>
-	Ghoulish In the Crypt is a procedurally generated roguelike I have been working on on and off since High school.  This game was my first ever project to utilize procedural 
-generation.  It also was the first time I had managed to write a state machine based AI that was able to navigate a level in a convincing way for non-player characters.  It was also 
-my first successful implementation of an inventory system in a way that enhances gameplay.  Now being more mature as a programmer, I have reworked most of the unscaleable code in
-order to continue working on the project and persue an end product larger in scope.
+	<i>Ghoulish In the Crypt</i> is a procedurally generated roguelike game with procedural generation that I have been working on from time to time since high school.  This game was my first project to utilize procedural 
+generation.  It also was the first time I wrote a state machine based AI that could navigate a level in a convincing way for non-player characters.  It features the successful implementation of an inventory system in a way 
+that enhances gameplay.  Recently, I reworked most of the unscaleable code in order to continue working on the project and persue an end product larger in scope.
 <p></p>
 <h2>About the Game:</h2>
 <p></p>
-	Ghoulish In the Crypt is a procedurally generated roguelike dungeon game where you make your way through dungeons of varrying complexity.  Along the way you'll be able to
-collect loot, weapons, and skills that will help you fight your way deeper and deeper into the dungeon and fight various bosses.
+	<i>Ghoulish In the Crypt</i> is a procedurally generated roguelike dungeon game where you make your way through dungeons of varying complexity.  Along the way you'll be able to
+collect loot, weapons, and skills that will help you battle your way deeper and deeper into the dungeon and fight various bosses.
 <p></p>
 <h2>The Old Procedural Generation Algorithm:</h2>
 <p></p>
-	The old algorithm uses a tile grid algorithm to place random premade tile chunks and then adjusts them to make the level completeable.  While this
+	The old algorithm used a tile grid algorithm to place random premade tile chunks and then adjusts them to make the level completeable.  While this
 	 method works and is fun to play, it still requires the developer to design the tile chunks that are placed onto the tile grid.
 	 <p></p>
 	 One of my goals when I started working on this game was to make the levels 100% procedurally generated.  To accomplish this I wrote a new procedural
@@ -22,6 +21,5 @@ collect loot, weapons, and skills that will help you fight your way deeper and d
 <p></p>
 	The new generation algorithm generates rooms in ascending order in a snake-game-like pattern and connects those rooms based on a few conditions.
 	  In theory thanks to this new system, I should be able to add: branching room paths with procedurally generated side quests, unique keys that 
-	  only open specific doors without the generator soft-locking the game, and metroidvania-like progression for finding better gear again without
-	  the generator soft locking the game.
+	  only open specific doors, and metroidvania-like progression for finding better gear.
 <p></p>

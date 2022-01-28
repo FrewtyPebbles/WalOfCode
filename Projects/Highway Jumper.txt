@@ -1,11 +1,11 @@
 <h2>About the Project:</h2>
 <p></p>
-	Highway Jumper was a proof of concept test for me to create pseudo 3D collisions in a 2D game engine.  Objects in the project use a fake "Z-axis"
-	 which allows me to apply 3 dimensional game logic to objects and give them 3d collision boxes that I wrote a system for myself.  The effect is
+	<i>Highway Jumper</i> was a proof of concept test for me to create pseudo 3D collisions in a 2D game engine.  Objects in the project use a fake "Z-axis"
+	 which allows me to apply 3D game logic to objects and give them 3D collision boxes, all coded from scratch.  The effect is
 	  convincing thanks to the shadow underneath the player which shrinks the further you are from the first surface below the player in pseudo 3D space.
 	  This shadow helps indicate the player's "x" (horizontal) and "z" (in and out) position based on where it is on the ground.  The player's "y" (vertical)
 	  position is indicated by the size of the shadow (larger indicates lower and smaller indicates higher).
 <p></p>
 <h2>About the Game:</h2>
 <p></p>
-	Highway Jumper is a game where you jump from car to car on a highway.  The cars are placed based on random perlin noise.  Try not to get run over!
+	<i>Highway Jumper</i> is a game that challenges you to jump from car to car to cross a highway.  The cars are placed based on random perlin noise.  Try not to get run over!
