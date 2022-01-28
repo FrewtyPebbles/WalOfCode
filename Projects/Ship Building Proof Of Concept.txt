@@ -1,12 +1,12 @@
 <h2>About the Project:</h2>
 <p></p>
-	This project was a prototype for a modular ship building game idea that I had.
+	<p style = "text-indent:40px">This project was a prototype for a modular ship building game idea that I had.
 	The prototype features a space ship building mechanic that allows
 	you to install parts on your ship's "core" and then drive your ship around 
 	with tank-like controlls.  The dialogue system was added because I had the idea of how to write one while 
 	working on the project.  This project as an opportunity to experiment 
 	with perlin noise for the first time.  I used it to generate a random distrobution of tiles in an "asteroid"
-	 as seen in the project images below.
+	 as seen in the project images below.</p>
 <p></p>
 <h2>Noteworthy Features:</h2>
 <p></p>

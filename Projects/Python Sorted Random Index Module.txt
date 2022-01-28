@@ -1,10 +1,10 @@
 <h2>About the Project:</h2>
 <p></p>
-	This module contains 2 working functions for finding a number's index efficiently in an ascending large sorted number array:
+	<p style = "text-indent:40px">This module contains 2 working functions for finding a number's index efficiently in an ascending large sorted number array:</p>
 <p></p>
-<i>findSortedIndex(_array, _number)</i> - Returns the given value <i>_number</i> in the array <i>_array</i>. returns false
-if the list does not contain the value.
+<p style = "text-indent:40px"><i>findSortedIndex(_array, _number)</i> - Returns the given value <i>_number</i> in the array <i>_array</i>. returns false
+if the list does not contain the value.</p>
 <p></p>
-<i>findNearestSortedIndex(_array, _number)</i> - Returns the nearest index with a value less than the value <i>_number</i> in the array <i>_array</i>.  
-If the number exists in the array already it will return that number's position.
+<p style = "text-indent:40px"><i>findNearestSortedIndex(_array, _number)</i> - Returns the nearest index with a value less than the value <i>_number</i> in the array <i>_array</i>.  
+If the number exists in the array already it will return that number's position.</p>
 <p></p>
