@@ -81,7 +81,7 @@ function loadProject(_project)
 		{
 			projectImagesElement.innerHTML += "<img style='position:relative' onmouseover=\"hoverImage(this)\" onclick=\"changeImage(this)\" onmouseout=\"rescaleImage(this)\" src=\"" + chosenProject.imagesDirectory + i + ".gif\" alt=\"" + i + "\" width=\"400\" height=\"200\">";
 		}
-		projectImageDisplayElement.innerHTML = "<img style = 'max-height: 500px;' src = '" + chosenProject.imagesDirectory + "1.gif' >";
+		projectImageDisplayElement.innerHTML = "<img style = 'max-width:100%; max-height: 500px;' src = '" + chosenProject.imagesDirectory + "1.gif' >";
 		projectTitleElement = document.getElementsByClassName("projectTitle");
 		projectTitleElement[1].innerHTML = " - " + chosenProject.title + " - " + chosenProject.versionNumber;
 	}
