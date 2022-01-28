@@ -1,0 +1,26 @@
+<h2>About the Project:</h2>
+<p></p>
+	This project was a prototype for a modular ship building game idea that I had.
+	In the project I made a space ship building mechanic that allows
+	you to place parts attached to your ship's "core" and then drive them arround 
+	with tank like controlls.  I also added a dialogue system because I had the idea of how to write one while working on the project.  I also used this project as an opportunity to expierement 
+	with perlin noise for the first time.  I used it to generate a random distrobution of tiles in an "asteroid"
+	 as seen in the project images below.
+<p></p>
+<h2>Noteworthy things:</h2>
+<p></p>
+<ul>
+  <li>Implemented a storage block that can be added to the ship.  Each storage block has it's own inventory that is tied to that block and can hold items inside.</li>
+  <li>Player and non player ships utilize the same core object and hold all references to the ships blocks, along with attributes for the ship.</li>
+</ul>
+<p></p>
+<h2>Controlls:</h2>
+<p></p>
+<a style = "text-align:left">
+<p>Movement - W A S D</p>
+<p>Next dialogue - E</p>
+<p>Place blocks on core - z x c</p>
+<p>Open inventory block - left click on block</p>
+<p>Place item in inventory - right click on block</p>
+</a>
+<p></p>

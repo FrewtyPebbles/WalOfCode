@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- PC WEBSITE -->
+<html>
+<title>Programming Projects - William L.</title>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!---<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180944994-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180944994-1');
+</script>--->
+<!-- Google Tag Manager -->
+<!---<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KZ986WD');</script>--->
+<!-- End Google Tag Manager -->
+
+</head>
+<style>
+body::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+body::-webkit-scrollbar-track {
+	border: 3px solid;
+	border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: grey;  
+	border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background: #a8a8a8;  
+}
+
+body::-webkit-scrollbar-corner {
+	background: rgba(0,0,0,0);
+}
+.contentDiv {
+	border: 5px outset black;
+	border-radius: 0px 0px 10px 10px;
+	background-color: #212121;
+	color: white;
+	text-align: center;
+}
+.innerContentDiv
+{
+}
+.downloadButton {
+	border: 5px green;
+	border-radius: 5px;
+	background-color: lime;
+	text-align: center;
+	font-family:'Courier'
+}
+#contentList
+{
+	border-radius: 10px 10px 0px 0px;
+	border: 5px outset grey;
+}
+#projectImageBox {
+	overflow-x: auto;
+	position:relative;
+	white-space: nowrap;
+	border: 5px outset black;
+	border-style: solid none solid none;
+	border-color: black;
+	background-color: black;
+	display: block;
+}
+#projectImageBox::-webkit-scrollbar {
+	width: 5px;
+	height: 10px;
+}
+#projectImageBox::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px #25ba81; 
+	border-radius: 10px;
+	background: #000000;
+}
+#projectImageBox::-webkit-scrollbar-thumb {
+	-webkit-box-shadow: inset 0 0 6px #9ee8cc;
+	background: #0d8c5b;
+	border-radius: 10px;
+}
+#projectImageBox::-webkit-scrollbar-thumb:hover {
+	background: #33bdaa;
+	-webkit-box-shadow: inset 0 0 6px #93e6da;
+}
+#projectDisplayImage
+{
+	background-color: black;
+}
+</style>
+<body oncontextmenu="return false;" style = "background-color: #121212; font-family:'Courier'">
+<div style="text-align:center">
+	<h1 style="font-family:'Courier'; color: white">Programming Projects</h1>
+</div>
+<div style="text-align:center; ">
+	<div class="contentDiv" id = "contentList">
+		<h3 >Projects:</h3>
+		<p style="color:#c6f7e4;"> (Click on a project to view it)</p>
+		<a id = "projectList"></a>
+	</div>
+</div>
+<div class="contentDiv">
+	<div class="innerContentDiv">
+		<h1 class = "projectTitle" style="font-family:'Courier'"></h1>
+		<p></p>
+		<a id = "projectDescription" style="font-family:'Courier'"></a>
+		<p></p>
+		<div style = "border: 10px outset #003621; border-style: double none double none;">
+			<div id = "projectDisplayImage"></div>
+			<div id = "projectImageBox"></div>
+		</div>
+		<p></p>
+		<a id = "projectDownload"></a>
+	</div>
+</div>
+<p></p>
+<script src="programmingProjectsTextLoader.js"></script>
+</body>
+</html>
