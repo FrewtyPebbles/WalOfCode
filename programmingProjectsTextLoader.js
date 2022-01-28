@@ -38,6 +38,7 @@ var blankProject = new project("blankProject","No Project Selected","none.txt",0
 var ghoulishInTheCrypt = new project("ghoulishInTheCrypt","Ghoulish In the Crypt","Ghoulish In the Crypt.zip",7, "DEV BUILD VER 0.2.1");
 var highwayJumper = new project("highwayJumper","Highway Jumper","Highway Jumper.zip",3, "DEV BUILD VER 0.1.3");
 var shipBuildingGame = new project("shipBuildingGame","Ship Building Proof Of Concept","Ship Making Game Prototype.zip",4, "DEV BUILD VER 0.1.3");
+var pythonFindSorted = new project("pythonFindSorted","Python Sorted Random Index Module","findSorted.py",1, "VER 1.0.0");
 //end
 var chosenProject = blankProject;
 function changeImage(_image)
