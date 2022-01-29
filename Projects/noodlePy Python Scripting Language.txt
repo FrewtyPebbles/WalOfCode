@@ -27,10 +27,15 @@
   <p>?</p>
   <p></p>
   <p>?</p></b>Code within the <i>?</i> executes if the statement after the <i>^</i> is true.</li>
-  <li><b>^[Variable Name] is [Value or Variable Name]
+  <li><b>^[Variable Name] isn't [Value or Variable Name]
   <p>?</p>
   <p></p>
   <p>?</p></b>Code within the <i>?</i> executes if the statement after the <i>^</i> is false.</li>
+  <li><b>sauce [Function Name]
+  <p>?</p>
+  <p></p>
+  <p>?</p></b>Code within the <i>?</i> executes when the function is called.</li>
+  <li><b>[Function Name]:|</b><p></p>Calls the given function.</li>
   <p></p>
 </ul>
 </a>
