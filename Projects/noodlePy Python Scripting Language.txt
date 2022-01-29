@@ -7,7 +7,7 @@
 <p></p>
 <ul>
   <li>Working scope and conditions.</li>
-  <li>Source files are interpreted using character and word streams, making indentation and newlines optional.</li>
+  <li>Source files are interpreted using character and word streams making indentation and newlines optional.</li>
   <li>Variable system with instantiation and assignment.</li>
   <li>A parsing system for keywords and built in methods.</li>
   <li>Working Functions.</li>
