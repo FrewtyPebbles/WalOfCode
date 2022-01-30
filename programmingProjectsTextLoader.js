@@ -39,7 +39,7 @@ var ghoulishInTheCrypt = new project("ghoulishInTheCrypt","Ghoulish In the Crypt
 var highwayJumper = new project("highwayJumper","Highway Jumper","Highway Jumper.zip",3, "DEV BUILD VER 0.1.3");
 var shipBuildingGame = new project("shipBuildingGame","Ship Building Proof Of Concept","Ship Making Game Prototype.zip",4, "DEV BUILD VER 0.1.3");
 var pythonFindSorted = new project("pythonFindSorted","Python Sorted Random Index Module","findSorted.zip",1, "VER 1.0.0");
-var noodlePy = new project("noodlePy","noodlePy Python Scripting Language","noodlePy.zip",1, "VER 1.2.2");
+var noodlePy = new project("noodlePy","noodlePy Python Scripting Language","noodlePy.zip",1, "VER 2.3.3");
 //end
 var chosenProject = blankProject;
 function changeImage(_image)

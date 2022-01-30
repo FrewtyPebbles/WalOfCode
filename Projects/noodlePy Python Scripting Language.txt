@@ -17,27 +17,62 @@
 <p></p>
 <p style = "text-indent:40px">To execute a <b>.pasta</b> script execute the python script "<i>noodleInterpreter.py [pastaSourceFileName]</i>" via the terminal replacing
  <i>[pastaSourceFileName]</i> with the name of your <i>noodlePy</i> script.</p>
+ <p style = "text-indent:40px"><b>IMPORTANT: All of your noodle code that executes outside of functions must be placed within a PLAIN SCOPE (<i>? your main code ?<i/>) 
+ that has NO statement AFTER your function definitions.  Variable instantiations must go at the verry top 
+ of your script.  Refer to the <i>example.pasta</i> source file in the project download if you are confused.</b></p>
 <a style = "text-align:left">
 <ul>
   <li><b>noodle [Variable Name] [Value]|</b><p></p>Instantiates a variable.</li>
   <p></p>
-  <li><b>p:[Variable Name or Content To Print]|</b><p></p>Prints the provided value.</li>
+  <li><b>p~[Variable Name or Content To Print]</b><i>[concatenation(s):</i> <b>~[Variable Name or "String"]</b><i>]</i><b>|</b><p></p>Prints the provided value.</li>
   <p></p>
-  <li><b>[Variable Name] = [Value or Variable Name]|</b><p></p>Assigns a variable.</li>
-  <p></p>
+  
   <li><b>^[Variable Name] is [Value or Variable Name]
   <p>?</p>
   <p></p>
   <p>?</p></b>Code within the <i>?</i> executes if the statement after the <i>^</i> is true.</li>
+  <p></p>
   <li><b>^[Variable Name] isn't [Value or Variable Name]
   <p>?</p>
   <p></p>
   <p>?</p></b>Code within the <i>?</i> executes if the statement after the <i>^</i> is false.</li>
+  <p></p>
+  <li><b>^[Variable Name] more'n [Value or Variable Name]
+  <p>?</p>
+  <p></p>
+  <p>?</p></b>Code within the <i>?</i> Executes if the first variable is greater than the second variable.</li>
+  <p></p>
+  <li><b>^[Variable Name] less'n [Value or Variable Name]
+  <p>?</p>
+  <p></p>
+  <p>?</p></b>Code within the <i>?</i> Executes if the first variable is less than the second variable.</li>
+  <p></p>
+  <li><b>^[Variable Name] equal'err [Value or Variable Name]
+  <p>?</p>
+  <p></p>
+  <p>?</p></b>Code within the <i>?</i> Executes if the first variable is greater than or equal to the second variable.</li>
+  <p></p>
+  <li><b>^[Variable Name] equal'ess [Value or Variable Name]
+  <p>?</p>
+  <p></p>
+  <p>?</p></b>Code within the <i>?</i> Executes if the first variable is less than or equal to the second variable.</li>
+  <p></p>
   <li><b>sauce [Function Name]
   <p>?</p>
   <p></p>
   <p>?</p></b>Code within the <i>?</i> executes when the function is called.</li>
-  <li><b>[Function Name]:|</b><p></p>Calls the given function.</li>
+  <p></p>
+  <li><b>[Function Name]~|</b><p></p>Calls the given function.</li>
+  <p></p>
+  <li><b>[Variable Name] = [Value or Variable Name]|</b><p></p>Assigns a variable.</li>
+  <p></p>
+  <li><b>[Variable Name]$[Variable Name or Number]|</b><p></p>Subtract a value from the first variable.</li>
+  <p></p>
+  <li><b>[Variable Name]+[Variable Name or Number]|</b><p></p>Add a value to the first variable.</li>
+  <p></p>
+  <li><b>[Variable Name]*[Variable Name or Number]|</b><p></p>Multiply a value times the first variable.</li>
+  <p></p>
+  <li><b>[Variable Name]/[Variable Name or Number]|</b><p></p>Divide the first variable by a number.</li>
   <p></p>
 </ul>
 </a>
