@@ -28,76 +28,76 @@
 
 <ul>
 <hr />
-  <li><b><a style="font-size:1.80vw; color: #ccd6e0">noodle [Variable Name] [Value]|</a></b><p></p>Instantiates a variable.</li>
+  <li><b><a style="font-size:15px; color: #ccd6e0">noodle [Variable Name] [Value]|</a></b><p></p>Instantiates a variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">p~[Variable Name or Content To Print]</b><i>[concatenation(s):</i> <b>~[Variable Name or "String"]</b><i>]</i><b>|</b></a><p></p>Prints the provided value.</li>
+  <li><b><a style="font-size:15px;color: #ccd6e0">p~[Variable Name or Content To Print]</b><i>[concatenation(s):</i> <b>~[Variable Name or "String"]</b><i>]</i><b>|</b></a><p></p>Prints the provided value.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">review~[Variable to store user input]|</a></b><p></p>Gets user console/terminal input and stores it in the provided variable.</li>
+  <li><b><a style="font-size:15px;color: #ccd6e0">review~[Variable to store user input]|</a></b><p></p>Gets user console/terminal input and stores it in the provided variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">eat~[Variable to print file to]~[Variable or file name]</b><i>[concatenation(s) for file name:</i> <b>~[Variable or "String"]</b><i>]</i><b>|</b></a><p></p>Grabs the provided file's data and stores it in the variable provided in the first argument.</li>
+  <li><b><a style="font-size:15px;color: #ccd6e0">eat~[Variable to print file to]~[Variable or file name]</b><i>[concatenation(s) for file name:</i> <b>~[Variable or "String"]</b><i>]</i><b>|</b></a><p></p>Grabs the provided file's data and stores it in the variable provided in the first argument.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">^[Variable Name] is [Value or Variable Name]
+  <li><b><a style="font-size:15px;color: #ccd6e0">^[Variable Name] is [Value or Variable Name]
   <p>?</p>
   <p></p>
   <p>?</p></a></b>Code within the <i>?</i> executes if the statement after the <i>^</i> is true.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">^[Variable Name] isn't [Value or Variable Name]
+  <li><b><a style="font-size:15px;color: #ccd6e0">^[Variable Name] isn't [Value or Variable Name]
   <p>?</p>
   <p></p>
   <p>?</p></a></b>Code within the <i>?</i> executes if the statement after the <i>^</i> is false.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">^[Variable Name] more'n [Value or Variable Name]
+  <li><b><a style="font-size:15px;color: #ccd6e0">^[Variable Name] more'n [Value or Variable Name]
   <p>?</p>
   <p></p>
   <p>?</p></a></b>Code within the <i>?</i> Executes if the first variable is greater than the second variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">^[Variable Name] less'n [Value or Variable Name]
+  <li><b><a style="font-size:15px;color: #ccd6e0">^[Variable Name] less'n [Value or Variable Name]
   <p>?</p>
   <p></p>
   <p>?</p></a></b>Code within the <i>?</i> Executes if the first variable is less than the second variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">^[Variable Name] equal'err [Value or Variable Name]
+  <li><b><a style="font-size:15px;color: #ccd6e0">^[Variable Name] equal'err [Value or Variable Name]
   <p>?</p>
   <p></p>
   <p>?</p></a></b>Code within the <i>?</i> Executes if the first variable is greater than or equal to the second variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">^[Variable Name] equal'ess [Value or Variable Name]
+  <li><b><a style="font-size:15px;color: #ccd6e0">^[Variable Name] equal'ess [Value or Variable Name]
   <p>?</p>
   <p></p>
   <p>?</p></a></b>Code within the <i>?</i> Executes if the first variable is less than or equal to the second variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">sauce [Function Name]
+  <li><b><a style="font-size:15px;color: #ccd6e0">sauce [Function Name]
   <p>?</p>
   <p></p>
   <p>?</p></a></b>Code within the <i>?</i> executes when the function is called.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">[Function Name]~|</a></b><p></p>Calls the given function.</li>
+  <li><b><a style="font-size:15px;color: #ccd6e0">[Function Name]~|</a></b><p></p>Calls the given function.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">[Variable Name] = [Value or Variable Name]|</a></b><p></p>Assigns a variable.</li>
+  <li><b><a style="font-size:15px;color: #ccd6e0">[Variable Name] = [Value or Variable Name]|</a></b><p></p>Assigns a variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">[Variable Name]$[Variable Name or Number]|</a></b><p></p>Subtract a value from the first variable.</li>
+  <li><b><a style="font-size:15px;color: #ccd6e0">[Variable Name]$[Variable Name or Number]|</a></b><p></p>Subtract a value from the first variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">[Variable Name]+[Variable Name or Number]|</a></b><p></p>Add a value to the first variable.</li>
+  <li><b><a style="font-size:15px;color: #ccd6e0">[Variable Name]+[Variable Name or Number]|</a></b><p></p>Add a value to the first variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">[Variable Name]*[Variable Name or Number]|</a></b><p></p>Multiply a value times the first variable.</li>
+  <li><b><a style="font-size:15px;color: #ccd6e0">[Variable Name]*[Variable Name or Number]|</a></b><p></p>Multiply a value times the first variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:1.80vw;color: #ccd6e0">[Variable Name]/[Variable Name or Number]|</a></b><p></p>Divide the first variable by a number.</li>
+  <li><b><a style="font-size:15px;color: #ccd6e0">[Variable Name]/[Variable Name or Number]|</a></b><p></p>Divide the first variable by a number.</li>
   <hr />
   <p></p>
 </ul>
