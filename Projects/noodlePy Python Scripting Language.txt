@@ -31,6 +31,9 @@
   <li><b><a style="font-size:15px; color: #ccd6e0">noodle [Variable Name] [Value]|</a></b><p></p>Instantiates a variable.</li>
   <hr />
   <p></p>
+  <li><b><a style="font-size:15px; color: #ccd6e0">noodle [Variable Name]`[IntegerValue]|</a></b><p></p>Instantiates a list/array with a size of the provided integer.  Array values can be accessed like this: <i>[Variable Name]`[Index]</i></li>
+  <hr />
+  <p></p>
   <li><b><a style="font-size:15px;color: #ccd6e0">p~[Variable Name or Content To Print]</b><i>[concatenation(s):</i> <b>~[Variable Name or "String"]</b><i>]</i><b>|</b></a><p></p>Prints the provided value.</li>
   <hr />
   <p></p>
