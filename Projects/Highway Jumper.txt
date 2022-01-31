@@ -1,3 +1,4 @@
+<hr />
 <h2>About the Project:</h2>
 <p></p>
 	<p style = "text-indent:40px"><i>Highway Jumper</i> was a proof of concept test for me to create pseudo 3D collisions in a 2D game engine.  Objects in the project use a fake "Z-axis"

@@ -1,3 +1,4 @@
+<hr />
 <h2>About the Project:</h2>
 <p></p>
 	<p style = "text-indent:40px"><i>Ghoulish In the Crypt</i> is a procedurally generated roguelike game with procedural generation that I have been working on from time to time since high school.  This game was my first project to utilize procedural 

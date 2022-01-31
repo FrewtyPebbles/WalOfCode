@@ -1,9 +1,10 @@
+<hr />
 <h2>About the Project:</h2>
 <p></p>
 	<p style = "text-indent:40px"><i>noodlePy</i> is an elaborate joke language that I made for fun in python.  I thought it would be
 	funny to make a language that is based arround the theme of pasta.</p>
 <p></p>
-<hr />
+
 <h2>Noteworthy Features:</h2>
 <p></p>
 <ul>
@@ -24,9 +25,9 @@
  that has NO statement AFTER your function definitions.  Variable instantiations must go at the verry top 
  of your script.  Refer to the <i>example.pasta</i> source file in the project download if you are confused.</b></p>
 <a style = "text-align:left">
-<hr />
-<ul>
 
+<ul>
+<hr />
   <li><b><a style="font-size:1.80vw; color: #ccd6e0">noodle [Variable Name] [Value]|</a></b><p></p>Instantiates a variable.</li>
   <hr />
   <p></p>

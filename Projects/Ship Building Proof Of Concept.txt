@@ -1,3 +1,4 @@
+<hr />
 <h2>About the Project:</h2>
 <p></p>
 	<p style = "text-indent:40px">This project was a prototype for a modular ship building game idea that I had.

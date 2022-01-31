@@ -1,3 +1,4 @@
+<hr />
 <h2>About the Project:</h2>
 <p></p>
 	<p style = "text-indent:40px">This module contains 2 working functions for finding a number's index efficiently in an ascending large sorted number array:</p>
