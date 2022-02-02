@@ -1,8 +1,7 @@
 <hr />
 <h2>About the Project:</h2>
 <p></p>
-	<p style = "text-indent:40px"><i>noodlePy</i> is an elaborate joke language that I made for fun in python.  I thought it would be
-	funny to make a language that is based arround the theme of pasta.</p>
+	<p style = "text-indent:40px"><i>noodlePy</i> is an elaborate joke language made for fun in Python.  It is a language that is based around the theme of pasta.</p>
 <p></p>
 
 <h2>Noteworthy Features:</h2>
@@ -10,9 +9,9 @@
 <ul>
   <li>Working scope and conditions.</li>
   <li>Source files are interpreted using character and word streams making indentation and newlines optional.</li>
-  <li>Variable system with instantiation and assignment.</li>
+  <li>Variable and array/list system with instantiation and assignment.</li>
   <li>A parsing system for keywords and built in methods.</li>
-  <li>Working Functions.</li>
+  <li>Working functions with recursion.</li>
 </ul>
 <p></p>
 <hr />
@@ -31,7 +30,7 @@
   <li><b><a style="font-size:15px; color: #ccd6e0">noodle [Variable Name] [Value]|</a></b><p></p>Instantiates a variable.</li>
   <hr />
   <p></p>
-  <li><b><a style="font-size:15px; color: #ccd6e0">noodle [Variable Name]`[IntegerValue]|</a></b><p></p>Instantiates a list/array with a size of the provided integer.  Array values can be accessed like this: <i>[Variable Name]`[Index]</i></li>
+  <li><b><a style="font-size:15px; color: #ccd6e0">noodle [Variable Name]`[Variable or Integer Value]|</a></b><p></p>Instantiates a list/array with a size of the provided integer.  Array values can be accessed like this: <i>[Variable Name]`[Index]</i></li>
   <hr />
   <p></p>
   <li><b><a style="font-size:15px;color: #ccd6e0">p~[Variable Name or Content To Print]</b><i>[concatenation(s):</i> <b>~[Variable Name or "String"]</b><i>]</i><b>|</b></a><p></p>Prints the provided value.</li>
