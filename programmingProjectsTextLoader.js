@@ -17,7 +17,7 @@ class project
 		this.versionNumber = _versionNumber;
 		if (_variableName != "blankProject")
 		{
-			projectListElement.innerHTML += "<a onclick=\" loadProject("+ _variableName +")\"><span  style = 'background-Color: black; border-radius: 3px; -webkit-user-select: none; -ms-user-select: none; user-select: none; padding: 2px; border: 2px solid white'onmouseout = 'onUnHoverProjects(this)' onmouseover = 'onHoverProjects(this)' onclick=\"onClickProjects(this)\">" + _projectTitle + "</span></a><p></p>";
+			projectListElement.innerHTML += "<a onclick=\" loadProject("+ _variableName +")\"><span id = 'projectButton' style = ''onmouseout = 'onUnHoverProjects(this)' onmouseover = 'onHoverProjects(this)' onclick=\"onClickProjects(this)\">" + _projectTitle + "</span></a><p></p>";
 		}
 	}
 }
@@ -27,7 +27,7 @@ function onHoverProjects(_projectText)
 }
 function onClickProjects(_projectText)
 {
-	_projectText.style.color = "red";
+	_projectText.style.color = "blue";
 }
 function onUnHoverProjects(_projectText)
 {
@@ -74,7 +74,7 @@ function loadProject(_project)
 	projectDescriptionElement.innerHTML = "";
 	if (chosenProject != blankProject)
 	{
-		projectDownloadElement.innerHTML = "<div style = 'font-size: 200%; margin: 30px'><a href =\"" + chosenProject.downloadFile + "\" style = \"text-decoration:none\" download = \"" + chosenProject.title + "\"><span class = \"downloadButton\" style=\"color:green; padding:2px;\" >DOWNLOAD<a class = \"projectTitle\" style=\"font-family:'Courier'\"></a></span></a></div>";
+		projectDownloadElement.innerHTML = "<div style = 'font-size: 200%; margin: 30px'><a href =\"" + chosenProject.downloadFile + "\" style = \"text-decoration:none\" download = \"" + chosenProject.title + "\"><span class = \"downloadButton\" style=\"\" >DOWNLOAD</span><a class = \"projectTitle\" style=\"font-family:'Courier'\"></a></a></div>";
 		let checkingPost = chosenProject.description + ".txt";
 		loadFileAndPrint(checkingPost);
 		//images
