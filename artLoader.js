@@ -25,5 +25,5 @@ function rescaleImage(_image)
 }
 for (var i = 1; i <= NUMOFIMAGES; i++)
 {
-	imageSelectorElement.innerHTML += "<img class = 'selectorImage' style='position:relative' onmouseover=\"hoverImage(this)\" onclick=\"changeImage(this)\" onmouseout=\"rescaleImage(this)\" src=\"art/" + i + ".png\" alt=\"" + i + "\">";
+	imageSelectorElement.innerHTML += "<img class = 'selectorImage' style='position:relative' onmouseover=\"hoverImage(this)\" onclick=\"changeImage(this)\" onmouseout=\"rescaleImage(this)\" src=\"Art/" + i + ".png\" alt=\"" + i + "\">";
 }
