@@ -1,7 +1,7 @@
 <hr />
 <h2>About the Project:</h2>
 <p></p>
-	<p style = "text-indent:40px"><i>noodlePy</i> is an elaborate joke language made for fun in Python.  It is a language that is based around the theme of pasta.</p>
+	<p style = "text-indent:40px"><i>noodlePy</i> is an elaborate joke language made for fun over the course of 3-5 days in Python.  It is a language that is based around the theme of pasta.</p>
 <p></p>
 
 <h2>Noteworthy Features:</h2>
