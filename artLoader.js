@@ -1,4 +1,4 @@
-var NUMOFIMAGES = 13;
+var NUMOFIMAGES = 16;
 var imageSelectorElement = document.getElementById("imageSelector");
 var displayImageElement = document.getElementById("displayImage");
 function changeImage(_image)
