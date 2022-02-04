@@ -31,7 +31,8 @@ body::-webkit-scrollbar-corner {
 	background: rgba(0,0,0,0);
 }
 .contentDiv {
-	border: 5px outset black;
+	border: outset black;
+	border-width: 5px 5px 5px 5px;
 	border-radius: 0px 0px 10px 10px;
 	background-color: #212121;
 	color: white;
@@ -60,8 +61,11 @@ body::-webkit-scrollbar-corner {
 }
 #contentList
 {
+	border: outset black;
+	border-width: 5px 5px 5px 5px;
 	border-radius: 10px 10px 0px 0px;
-	border: 5px outset grey;
+	background: rgb(33,33,33);
+	background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(193,125,140,0.8186624991793592) 50%, rgba(147,230,218,0.5217437316723564) 100%);
 }
 #projectImageBox {
 	overflow-x: auto;
@@ -144,8 +148,8 @@ a
 </div>
 <div style="text-align:center; ">
 	<div class="contentDiv" id = "contentList">
-		<h3 >Projects:</h3>
-		<p style="color:#c6f7e4;"> (Click on a project to view it)</p>
+		<h3 style = "text-shadow: 2px 2px 1px black;">Projects:</h3>
+		<p style="color:#c6f7e4;text-shadow: 2px 2px 1px black;"> (Click on a project to view it)</p>
 		<a id = "projectList"></a>
 		<h1></h1>
 		<div style = "text-align: left; padding-left: 12px">
