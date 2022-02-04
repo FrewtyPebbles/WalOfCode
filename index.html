@@ -5,8 +5,10 @@
 </head>
 <style>
 body {
-  background-image: url("Red light district final.png");
-  background-repeat: repeat-x repeat-y;
+	background-image: url("Red light district final.png");
+	background-repeat: true;
+	background-attachment: absolute;
+	background-position: center;
 }
 body::-webkit-scrollbar {
 	width: 12px;
@@ -31,19 +33,20 @@ body::-webkit-scrollbar-corner {
 	background: rgba(0,0,0,0);
 }
 .contentDiv {
-	border: outset black;
-	border-width: 5px 5px 5px 5px;
+	border: outset transparent;
+	border-width: 1px;
 	border-radius: 0px 0px 10px 10px;
 	background-color: #212121;
 	color: white;
 	text-align: center;
+	-webkit-box-shadow: inset 0 0 50px black;
 }
 .innerContentDiv
 {
 	text-align:left;
 }
 .downloadButton {
-	-webkit-box-shadow: inset 0 0 6px #9ee8cc;
+	-webkit-box-shadow: inset 0 0 10px #9ee8cc;
 	background: #0d8c5b;
 	border-radius: 5px;
 	-moz-user-select: -moz-none;
@@ -61,8 +64,9 @@ body::-webkit-scrollbar-corner {
 }
 #contentList
 {
-	border: outset black;
-	border-width: 5px 5px 5px 5px;
+	-webkit-box-shadow: inset 0 0 0px white;
+	border: outset transparent;
+	border-width: 1px;
 	border-radius: 10px 10px 0px 0px;
 	background: rgb(33,33,33);
 	background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(193,125,140,0.8186624991793592) 50%, rgba(147,230,218,0.5217437316723564) 100%);
@@ -143,8 +147,8 @@ a
 </style>
 <body oncontextmenu="return false;" style = "background-color: #121212; font-family:'Courier'">
 <div style="text-align:center">
-	<h1 style="font-family:'Courier'; -webkit-text-stroke: 1px #9ee8cc;text-shadow: 2px 2px 5px #33bdaa;-webkit-text-fill-color: #541900; color: #0d8c5b">Programming Projects</h1>
-	<h2 style="font-family:'Courier'; -webkit-text-stroke: 1px #9ee8cc;text-shadow: 2px 2px 5px #33bdaa;-webkit-text-fill-color: #541900; color: #0d8c5b"><i>By William L.</i></h1>
+	<h1 style="font-family:'Courier'; -webkit-text-stroke: 1px #bae3d3;text-shadow: 2px 2px 5px #33bdaa;-webkit-text-fill-color: #541900; color: #0d8c5b">Programming Projects</h1>
+	<h2 style="font-family:'Courier'; -webkit-text-stroke: 1px #bae3d3;text-shadow: 2px 2px 5px #33bdaa;-webkit-text-fill-color: #541900; color: #0d8c5b"><i>By William L.</i></h1>
 </div>
 <div style="text-align:center; ">
 	<div class="contentDiv" id = "contentList">
