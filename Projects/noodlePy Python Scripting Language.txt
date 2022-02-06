@@ -17,7 +17,7 @@
 <hr />
 <h2>Documentation:</h2>
 <p></p>
-<p style = "text-indent:40px">To execute a <b>.pasta</b> script, run the interpeter (noodle.exe) and enter in the name of your source file.</p>
+<p style = "text-indent:40px">To execute a <b>.pasta</b> script, run the interpeter (<b>noodle.exe</b>) and enter in the name of your source file.</p>
 <p></p>
  <p style = "text-indent:40px; color:#ffa8b7"><b>IMPORTANT: All of your noodle code that executes outside of functions must
  be placed within a PLAIN SCOPE (<i>? your main code ?</i>) 
