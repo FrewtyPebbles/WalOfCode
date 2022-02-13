@@ -1,0 +1,13 @@
+<hr />
+<h2>About the Project:</h2>
+<p></p>
+	<p style = "text-indent:40px">The <i>Gunk Encrypter</i> is an encryption tool for encrypting <b>UTF-8</b> text based data.</p>
+<p></p>
+	<p style = "text-indent:40px">When a file is encrypted, it will generate an encrypted version of the file with a <i>.gunk</i> extension and a file with a <i>.gunkkey</i> extension.  
+This <i>.gunkkey</i> file acts as the key to decrypt the encrypted <i>.gunk</i> file and generate the original unencrypted file.</p>
+<p></p>
+	<p style = "text-indent:40px">DO NOT USE THIS ENCRYPTER FOR IMPORTANT FILES!  This was a project I made for fun, and I am not resposible for any damages that you may cause by using this 
+tool incorrectly.  I am also not responsible for any damages caused by unforseen bugs in the program.  By downloading this program, you take full responsibility for any damages that may occur.</p>
+<p>
+</p>
+<p>With all of that said, after thorough testing, I can assure that it is safe for non-consequential files.</p>
