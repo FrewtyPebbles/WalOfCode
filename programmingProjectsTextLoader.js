@@ -38,7 +38,7 @@ var blankProject = new project("blankProject","No Project Selected","none.txt",0
 var ghoulishInTheCrypt = new project("ghoulishInTheCrypt","Ghoulish In the Crypt","Ghoulish In the Crypt.zip",7, "DEV BUILD VER 0.2.1");
 var highwayJumper = new project("highwayJumper","Highway Jumper","Highway Jumper.zip",3, "DEV BUILD VER 0.1.3");
 var shipBuildingGame = new project("shipBuildingGame","Ship Building Proof Of Concept","Ship Making Game Prototype.zip",4, "DEV BUILD VER 0.1.3");
-var pythonFindSorted = new project("pythonFindSorted", "Sorted Random Index Python Module", "findSorted.zip", 1, "VER 1.0.0");
+var pythonFindSorted = new project("pythonFindSorted", "Sorted Random Index Python Module", "Sorted Random Index Python Module.zip", 1, "VER 1.0.0");
 var noodlePy = new project("noodlePy","noodlePy","noodlePy.zip",2, "VER 4.0.0");
 var gunkEncrypter = new project("gunkEncrypter","Gunk Encrypter","Gunk Encrypter.zip",1, "VER 2.1.0");
 //end
